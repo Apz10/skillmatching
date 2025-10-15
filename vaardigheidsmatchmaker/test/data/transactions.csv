@@ -1,0 +1,11 @@
+﻿Date,TxnID,Type,AmountEUR,BalanceEUR,Party,Party Iban,CounterpartyName,CounterpartyIBAN,Description,Location
+25-08-2025,TXN2001,Credit,120000,120000,company1,xxxx,Energie GmbH ,xxxx,Solar Panels Export Invoice INV-2025-145,Frankfurt branch
+28-08-2025,TXN2002,Credit,60000,180000,company1,xxxx,EcoHome BV ,xxxx,Installation Project Payment NL2025-55,Rotterdam
+30-08-2025,TXN2003,Debit,35000,145000,company1,xxxx,SolarSupply Asia Ltd,xxxx,Import Panels – Supplier Payment,Rotterdam
+01-09-2025,TXN2004,Debit,7500,137500,company1,xxxx,Dutch Tax Authority,xxxx,VAT Settlement Aug-2025,Rotterdam
+02-09-2025,TXN2005,Credit,110000,247500,company1,xxxx,BelSolar SA ,xxxx,Solar Equipment Export Invoice BE-INV-445,Frankfurt branch
+04-09-2025,TXN2006,Debit,45000,202500,company1,xxxx,Green Parts GmbH ,xxxx,Component Import Payment INV-788,Rotterdam
+05-09-2025,TXN2007,Credit,9500,212000,company1,xxxx,Private InvestCo BV,xxxx,Equity Injection / Capital Contribution,Rotterdam
+07-09-2025,TXN2008,Debit,12000,200000,company1,xxxx,Executive Holdings Ltd ,xxxx,Consultancy Fee,Offshore
+10-09-2025,TXN2009,Credit,95000,295000,company1,xxxx,EcoHome BV (,xxxx,Repeat Project Payment NL2025-56,Rotterdam
+12-09-2025,TXN2010,Debit,18000,277000,company1,xxxx,Unknown Third Party,xxxx,Payment On behalf of partner,Rotterdam
