@@ -83,6 +83,7 @@ elif page == "Skill Matching":
 					st.subheader("Model Output")
 					# Step3g: Display result
 					st.write(result)
+				break
 		except Exception as e:
 			st.error(f"No file submitted")
 			st.markdown("Error from Agent Run:")
@@ -150,3 +151,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
