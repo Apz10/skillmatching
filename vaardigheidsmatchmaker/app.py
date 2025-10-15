@@ -65,7 +65,7 @@ elif page == "Skill Matching":
 		edited_df = st.data_editor(df, num_rows="dynamic")
 
 		# Step3d: Submit CSV
-	if st.button("Submit CSV for Risk Analysis"):
+	if st.button("Submit for Skill Matching"):
 		# Step3f: Send to OpenAI model
 		try:
 			for start in range(0, len(df), batch_size):
@@ -148,4 +148,5 @@ st.markdown(
     <div class="watermark">apz v.1.0.4</div>
     """,
     unsafe_allow_html=True
+
 )
