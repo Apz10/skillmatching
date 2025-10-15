@@ -6,7 +6,6 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 # If using langraph, import relevant modules (example below)
 # from langraph import Graph
-from config import OPENAI_API_KEY
 
 def run_counterparty_analysis(prompt: str, skills_input, llm_agent: str) -> str:
     # Step 1: Initialize OpenAI model
@@ -34,4 +33,5 @@ def run_counterparty_analysis(prompt: str, skills_input, llm_agent: str) -> str:
     # Step 4: Get result and return
     result = chain.run({"transactions": transactions_str, "skills": skills_input})
     return result
+
 
